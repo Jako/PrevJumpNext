@@ -9,8 +9,8 @@ History
 	- Complete rewrite
 	- Use of newChunkie class
 	- Some parameters renamed to use the same parameters as wayfinder
-    - Language files possible
+	- Language files possible
 	- Internal url generation
-    - YAMS url generation possible
-    - The classes of items could be set by parameter
-    - Installation by Package Manager possible
+	- YAMS url generation possible
+	- The classes of items could be set by parameter
+	- Installation by Package Manager possible

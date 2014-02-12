@@ -7,11 +7,11 @@
  * @category    snippet
  * @version     1.0
  * @license     http://www.gnu.org/copyleft/gpl.html GNU Public License (GPL)
- * @author		Thomas Jakobi
+ * @author      Jako
  *
- * @internal	Bases on the work of Jeroen Bosch, OncleBen31 and Aaron Heinrich
+ * @internal    Bases on the work of Jeroen Bosch, OncleBen31 and Aaron Heinrich
  * @internal    @properties
- * @internal    @modx_category Content
+ * @internal    @modx_category Navigation
  * @internal    @installset base, sample
  */
 
