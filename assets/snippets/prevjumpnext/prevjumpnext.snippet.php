@@ -97,7 +97,7 @@ if (!function_exists('getActiveChildrenLevel')) {
 
 $id = $modx->documentIdentifier;
 $fields = 'id,pagetitle,isfolder,hidemenu'; // what fields do you want to know
-$children = getActiveChildrenLevel($startID, $sortBy, $sortDir, $fields, $level);
+$children = getActiveChildrenLevel($startId, $sortBy, $sortDir, $fields, $level);
 $my_array = array();
 $y = 1;
 
@@ -217,10 +217,10 @@ if (count($my_array)) {
 	$jumpPlaceHolder = $parser->process('wrapper');
 
 	// Index item
-	if ($useYams && $yams->IsMultilingualDocument($indexDocumentID)) {
-		$parser->setPlaceholder('link', $yams->ConstructResolvedURL($langid, $indexDocumentID));
+	if ($useYams && $yams->IsMultilingualDocument($indexDocumentId)) {
+		$parser->setPlaceholder('link', $yams->ConstructResolvedURL($langid, $indexDocumentId));
 	} else {
-		$parser->setPlaceholder('link', $modx->makeUrl($indexDocumentID));
+		$parser->setPlaceholder('link', $modx->makeUrl($indexDocumentId));
 	}
 	$parser->setPlaceholder('class', $indexClass);
 	$parser->setPlaceholder('title', $indexText);
