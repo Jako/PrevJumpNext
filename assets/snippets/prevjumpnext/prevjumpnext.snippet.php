@@ -285,6 +285,7 @@ if (count($my_array)) {
 
 	if (!$usePlaceHolder) {
 		// prepare output
+		$output = array();
 		if ($displayTotal) {
 			$output[] = '<span class="' . $totalClass . '">' . $totalPlaceHolder . '</span>';
 		}
